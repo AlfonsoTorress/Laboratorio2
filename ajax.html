@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bienvenido al Laboratorio 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css"/>
+        <link rel="stylesheet" href="css/ajax.css"/>
+        <script src="js/ejercicio-ajax.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Tecnologías JavaScript y AJAX</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="javascript.html">JavaScript</a>
+                <a href="ajax.html">AJAX</a>
+            </nav>
+        </header>
+        <article>
+            <div class="inputText">
+                <input type="text" name="url" class="url">
+                <input type="button" value="Mostrar Contenido" onclick="procesarPeticion();">
+            </div>
+            <div class="contenidoEstado">
+                <label for="estado" class="estado">Estado de la Petición:</label>
+                <div class="contenido">
+                    <p class="tituloContenido">Contenido del archivo</p>
+                    <textarea name="contenido" class="contenido" cols="165" rows="21"></textarea>
+                </div>
+            </div>
+            <div class="cabeceraRespuesta">
+                <div class="contenidoCabecera">
+                    <p class="tituloContenido">Contenido de la Cabecera</p>
+                    <textarea name="contenido" class="contenido" cols="165" rows="21"></textarea>
+                </div>
+                <div class="codigoRespuesta">
+                    <p class="tituloRespuesta">Código de Respuesta</p>
+                    <textarea name="contenido" class="contenido" cols="165" rows="21"></textarea>
+                </div>
+            </div>
+        </article>
+        <footer>
+            Laboratorio 2 - Ingeniería Informática
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bienvenido al Laboratorio 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css"/>
+        <link rel="stylesheet" href="css/javascript.css"/>
+        <script src="js/ejercicios-js.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Tecnologías JavaScript y AJAX</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="javascript.html">JavaScript</a>
+                <a href="ajax.html">AJAX</a>
+            </nav>
+        </header>
+        <article>
+            <h2>Ejercicios en JavaScript</h2>
+            <section class="sectionjs">
+                <h3 class="ejercicio1" onclick="clickEvente(this);">Ejercicio 1: Palíndromos</h3>
+                <div class="contenidojs">
+                    <p class="descripcion">Detectar si la cadena de entrada en un palíndromo.</p>
+                    <div class="cajaobj">
+                        <label for="palabra">Ingrese la palabra a verificar: </label>
+                        <input type="text" name="palabra" class="ingreso">
+                        <input type="button" value="Verificar" class="boton" onclick="verificar();">
+                        <p class="resultado">..............................</p>
+                    </div>     
+                </div>
+            </section>
+            <section class="sectionjs">
+                <h3 class="ejercicio2" onclick="clickEvente(this);">Ejercicio 2: Número Mayor</h3>
+                <div class="contenidojs">
+                    <p class="descripcion">Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.</p>
+                    <div class="cajaobj">
+                        <label for="primerNumero">Ingrese el primero número:</label>
+                        <input type="text" name="primerNumero" class="primerNumero">
+                        <label for="segundoNumero">Ingrese el segundo número:</label>
+                        <input type="text" name="segundoNumero" class="segundoNumero">
+                        <input type="button" value="Verificar" class="boton" onclick="numeroMayor();">
+                        <p class="resultado" name="numeroMayor">..............................</p>
+                    </div> 
+                </div>
+            </section>
+            <section class="sectionjs">
+                <h3 class="ejercicio3" onclick="clickEvente(this);">Ejercicio 3: Vocales</h3>
+                <div class="contenidojs">
+                    <p class="descripcion">Escribe un programa que pida una frase (mínimo de dos líneas), y de forma organizada escriba las vocales (a, e, i, o u) que aparecen.</p>
+                    <div class="cajaobj">
+                        <label for="palabra">Ingrese una palabra o frase: </label>
+                        <input type="text" name="palabra" class="ingresoFrase">
+                        <input type="button" value="Procesar" class="boton" onclick="escribirVocales();">
+                        <p class="resultado" name="resultadoFrase">..............................</p>
+                    </div> 
+                </div>
+            </section>
+        </article>
+        <footer>
+            Laboratorio 2 - Ingeniería Informática
+        </footer>
+    </body>
+</html>

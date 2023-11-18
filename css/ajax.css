@@ -1,0 +1,53 @@
+article .inputText {
+    display: block;
+}
+
+article .inputText .url {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.contenidoEstado {
+    display: block;
+    margin: 15px 0px 0px 0px;
+}
+
+.contenidoEstado .estado {
+    display: block;
+    padding: 5px;
+    border: solid 1px;
+    border-color: darkgrey;
+    text-align: center;
+}
+
+.contenidoEstado .tituloContenido {
+    display: block;
+}
+
+.contenidoEstado .contenido {
+    display: block;
+    resize: none;
+}
+
+.cabeceraRespuesta {
+    display: block;
+    margin: 15px 0px 0px 0px;
+}
+
+.cabeceraRespuesta .contenidoCabecera {
+    display: block;
+}
+
+.cabeceraRespuesta .codigoRespuesta {
+    display: block;
+}
+
+.cabeceraRespuesta .contenidoCabecera .contenido {
+    display: block;
+    resize: none;
+}
+
+.cabeceraRespuesta .codigoRespuesta .contenido {
+    display: block;
+    resize: none;
+}

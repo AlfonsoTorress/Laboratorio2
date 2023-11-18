@@ -1,0 +1,49 @@
+.sectionjs {
+    display: block;
+    margin: 0px 35px 0px 35px;
+}
+
+.sectionjs h3 {
+    background-color: #3E2723;
+    color: #ECEFF1;
+    text-align: center;
+    border-color: #ECEFF1;
+    margin: 0;
+    padding: 5px;
+}
+
+.sectionjs .contenidojs {
+    display: none;
+    border: solid 1px;
+    border-color: #3E2723;
+}
+
+.sectionjs .contenidojs .descripcion{
+    display: block;
+    margin-left: 10px;
+}
+
+.sectionjs .contenidojs .cajaobj {
+    display: block;
+    margin: 0px 0px 25px 10px;
+}
+
+.sectionjs .contenidojs .cajaobj .ingreso {
+    width: 945px;
+}
+
+.sectionjs .contenidojs .cajaobj .resultado {
+    text-align: center;
+}
+
+.sectionjs .contenidojs .cajaobj .primerNumero {
+    width: 365px;
+}
+
+.sectionjs .contenidojs .cajaobj .segundoNumero {
+    width: 365px;
+}
+
+.sectionjs .contenidojs .cajaobj .ingresoFrase {
+    width: 945px;
+}
